@@ -5,6 +5,7 @@ import ast
 import math
 import random
 import pytz
+import logging
 from datetime import datetime, timedelta, date, time
 lock = asyncio.Lock()
 
@@ -230,17 +231,29 @@ async def next_page(bot, query):
             pass
     await query.answer()
 
+# Set up logging
+logging.basicConfig(level=logging.DEBUG)
+
 @Client.on_callback_query(filters.regex(r"^spol"))
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     movies = SPELL_CHECK.get(query.message.reply_to_message.id)
+    await asyncio.sleep(1)
+    await query.message.delete()  # Assuming you intended to delete the message here
+    logging.debug("Attempting to delete message")
+    try:
+        await query.message.delete()
+        logging.debug("Message deleted successfully")
+    except Exception as e:
+        logging.error(f"Error deleting message: {e}")
     if not movies:
         return await query.answer(script.OLD_ALRT_TXT.format(query.from_user.first_name), show_alert=True)
     if int(user) != 0 and query.from_user.id != int(user):
         return await query.answer(script.ALRT_TXT.format(query.from_user.first_name), show_alert=True)
     if movie_ == "close_spellcheck":
-        return await query.message.delete()
-    movie = movies[(int(movie_))]
+        await query.message.delete()  # Delete the searched movie name
+        return await query.message.delete()  # Delete the message
+    movie = movies[int(movie_)]
     movie = re.sub(r"[:\-]", " ", movie)
     movie = re.sub(r"\s+", " ", movie).strip()
     await query.answer(script.TOP_ALRT_MSG)
@@ -257,14 +270,8 @@ async def advantage_spoll_choker(bot, query):
                 reqstr = await bot.get_users(reqstr1)
                 if NO_RESULTS_MSG:
                     await bot.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, movie)))
-                k = await query.message.edit(script.MVE_NT_FND)
-                await asyncio.sleep(10)
-                await k.delete()
-                return await query.message.delete()
-                return await query.answer("Not Found")
+                await query.answer(script.MVE_NT_FND)
                 await query.message.delete()
-                await k.delete()
-
 #languages
 
 
