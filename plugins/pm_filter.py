@@ -261,8 +261,8 @@ async def advantage_spoll_choker(bot, query):
                 await asyncio.sleep(10)
                 await k.delete()
                 return await query.message.delete()
-                #return await query.answer("Not Found")
-                #await query.message.delete()
+                return await query.answer("Not Found")
+                await query.message.delete()
                 await k.delete()
 
 #languages
