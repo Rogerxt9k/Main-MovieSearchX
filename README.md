@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/6dd6251ba15e01b3e9a92.jpg" alt="RazerBots Logo">
+  <img src="https://telegra.ph/file/60c26abeff30224176170.mp4" alt="RazerBots Logo">
 </p>
 <h1 align="center">
   Razer-Filter-Bot
