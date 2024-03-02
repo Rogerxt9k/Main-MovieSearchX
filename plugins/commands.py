@@ -385,7 +385,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to get direct files for the next 24hrs 😇 How to Verify?- https://t.me/Tiger_3_Animal_12th_fail/63 !</b>",
+                    text="<b>You are not verified !\nKindly verify to get direct files for the next 24hrs 😇 How to Verify?- https://t.me/Razer_bots/11 !</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -441,7 +441,7 @@ async def start(client, message):
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to get direct files for the next 24hrs 😇 How to Verify https://t.me/Tiger_3_Animal_12th_fail/63 !</b>",
+            text="<b>You are not verified !\nKindly verify to get direct files for the next 24hrs 😇 How to Verify https://t.me/Razer_bots/11 !</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
