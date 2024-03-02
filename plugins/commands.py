@@ -263,7 +263,7 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
-                        InlineKeyboardButton('⚡𝗛ᴏᴡ 𝗧ᴏ 𝗗ᴏᴡɴʟᴏᴀᴅ⚡', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('⚡𝗛ᴏᴡ 𝗧ᴏ 𝗗ᴏᴡɴʟᴏᴀᴅ⚡', url='https://t.me/Razer_bots/11')
                     ]
                 ]
             )
@@ -284,7 +284,7 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
-                        InlineKeyboardButton('⚡𝗛ᴏᴡ 𝗧ᴏ 𝗗ᴏᴡɴʟᴏᴀᴅ⚡', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('⚡𝗛ᴏᴡ 𝗧ᴏ 𝗗ᴏᴡɴʟᴏᴀᴅ⚡', url='https://t.me/Razer_bots/11')
                     ]
                 ]
             )
@@ -367,7 +367,7 @@ async def start(client, message):
                         [
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                         ], [
-                            InlineKeyboardButton('⚡𝗛ᴏᴡ 𝗧ᴏ 𝗗ᴏᴡɴʟᴏᴀᴅ⚡', url=await get_tutorial(chat_id))
+                            InlineKeyboardButton('⚡𝗛ᴏᴡ 𝗧ᴏ 𝗗ᴏᴡɴʟᴏᴀᴅ⚡', url='https://t.me/Razer_bots/11')
                         ]
                     ]
                 )
