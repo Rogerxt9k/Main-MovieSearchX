@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url="https://t.me/Razermax_Movies"),
-                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/Movie_Search_Bots')
+                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url="https://t.me/RazerFlix"),
+                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/Prime_Movieshd')
                 ],[
                     InlineKeyboardButton('👻 ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ 👻', url='tg://settings')
                   ]]
@@ -45,8 +45,8 @@ async def start(client, message):
         buttons =  [[
                     InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url="https://t.me/Razermax_Movies"),
-                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/Movie_Search_Bots')
+                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url="https://t.me/RazerFlix"),
+                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/Prime_Movieshd')
                 ],[
                     InlineKeyboardButton('👻 ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ 👻', url='tg://settings')
                   ]]
@@ -99,8 +99,8 @@ async def start(client, message):
         buttons =  [[
                    InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url="https://t.me/Razermax_Movies"),
-                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/Movie_Search_Bots')
+                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url="https://t.me/RazerFlix"),
+                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/Prime_Movieshd')
                 ],[
                     InlineKeyboardButton('👻 ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ 👻', url='tg://settings')
                   ]]
@@ -154,8 +154,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Razermax_Movies'),
-                                InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Movie_Search_Bots')
+                                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/RazerFlix'),
+                                InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Prime_Movieshd')
                             ],
                             [
                                 InlineKeyboardButton('🚀 Fast Download / Watch Online🔥', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
@@ -174,8 +174,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Razermax_Movies'),
-                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Movie_Search_Bots')
+                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/RazerFlix'),
+                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Prime_Movieshd')
                          ],[ 
                             InlineKeyboardButton('🚀 Fast Download / Watch Online🔥', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
