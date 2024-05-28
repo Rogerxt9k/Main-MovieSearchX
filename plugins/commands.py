@@ -76,9 +76,9 @@ async def start(client, message):
                 InlineKeyboardButton(
                     "📌 𝓙ᴏɪɴ 𝓞ᴜʀ 𝓒ʜᴀɴɴᴇʟ 📌", url=invite_link.invite_link
                 ),
-                InlineKeyboardButton('✨ 𝐉𝐎𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 2 ✨', url='https://t.me/Razermax_Movies')
+                InlineKeyboardButton('✨ 𝐉𝐎𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 2 ✨', url='https://t.me/Razer_bots')
             ],[
-                InlineKeyboardButton('👻 Must Join Backup Group 👻', url='https://t.me/Movie_Search_Bots')
+                InlineKeyboardButton('👻 Must Join Backup Group 👻', url='https://t.me/moviesprimiumworld')
             ]
         ]
 
